@@ -1,0 +1,28 @@
+BNF Correo Electrónico
+
+Mail structure: name@domain
+
+<mail> ::= <name> <symbol-a> <domain>
+
+<name> ::= <characters> | <characters> <number> | <number> <characters>
+
+<characters> ::= <character>
+
+<character> ::= "A" | "B" | "C" | "D" | "1" | "2" | "3" | "4" | "5" | "a" | "b" | "c" | "d" | ....
+
+<number> ::= 0 | 1 | 2 | 3 | 4 | ....
+
+<symbol-a> ::= "@"
+
+<domain> ::= <domain-normal> <domain-super>
+
+<domain-normal> ::= <characters> <symbols> <characters> | <number> <characters> <symbols> <characters> | <characters> <number> <symbols> <characters>
+
+<domain-super> ::= <characters> <symbol-p> <characters>
+
+<symbol-p> ::= "."
+
+<symbols> ::= <symbol>
+
+<symbol> ::= "./\@'"¿¡?!-+*"
+
