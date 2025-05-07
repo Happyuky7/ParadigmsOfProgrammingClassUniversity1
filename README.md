@@ -2,7 +2,7 @@
 
 # Programing Languges Using up to now:
 - [Julia Lang](https://julialang.org/)
-- [Java Lang](https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n))
+- [Java Lang](https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n))  (Just for me to show something to the Professor at the right time)
 - [C# Lang](https://learn.microsoft.com/en-us/dotnet/csharp/)
 
 ## Information:
