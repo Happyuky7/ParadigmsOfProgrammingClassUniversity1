@@ -6,8 +6,10 @@ public class Program
 {
     public static void Main(string[] args)
     {
+        Estudiantes.MostrarInformacion();
         Estudiantes estudiante1 = new Estudiantes("01", "Juan", 20);
         estudiante1.MostrarInformacion();
+        estudiante1.addInfo("2023");
 
         Estudiantes estudiante2 = new Estudiantes("02", "Maria", 22);
         estudiante2.MostrarInformacion();
